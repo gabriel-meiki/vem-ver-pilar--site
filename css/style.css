@@ -31,12 +31,11 @@ header nav{
     height: 70px;
     display: flex;
     justify-content: space-between;
-    padding: 0 105px;
     background-color: rgba(0, 0, 0, 0.200);
 }
 
 header nav div#logo{
-    margin-left: -45px;
+    margin-left: 42px;
 }
 
 header nav div#logo a img{
@@ -47,12 +46,17 @@ header nav div#logo a img{
 header nav ul{
     display: flex;
     list-style: none;
+    letter-spacing: 3px;
     
 }
 
 header nav ul li{
     padding-top: 26px;
-    margin-left: 18px;
+    margin-left: 32px;
+}
+
+header nav ul li:last-child{
+    margin-right: 42px;
 }
 
 header nav li a{
@@ -83,6 +87,7 @@ header .conteudo h1{
     width: 100%;;
     max-width: 1000px;
     font-weight: 900;
+    letter-spacing: 4px;
 }
 
 /*Linha divisória do conteúdo*/
@@ -97,6 +102,7 @@ header .conteudo .divisor{
     position: relative;
     text-align: center;
     width: 100%;
+    letter-spacing: 3px;
 
 }
 
