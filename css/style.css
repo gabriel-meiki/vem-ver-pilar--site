@@ -57,6 +57,9 @@ header nav li a{
 
 
 header .conteudo{
+    max-width: 1000px;
+    width: 100%;
+    background-color: transparent;
     color: white;
     position: absolute;
     top: 50%;
@@ -67,9 +70,11 @@ header .conteudo{
 }
 
 header .conteudo h1{
+    background-color: transparent;
     font-size:  100px;
     font-weight: 400;
-    width: 1000px;
+    width: 100%;;
+    max-width: 1000px;
     font-weight: 900;
 }
 
