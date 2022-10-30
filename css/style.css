@@ -35,7 +35,7 @@ header nav{
 }
 
 header nav div#logo{
-    margin-left: 42px;
+    margin-left: 50px;
 }
 
 header nav div#logo a img{
@@ -56,7 +56,7 @@ header nav ul li{
 }
 
 header nav ul li:last-child{
-    margin-right: 42px;
+    margin-right: 50px;
 }
 
 header nav li a{
