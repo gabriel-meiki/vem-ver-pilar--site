@@ -46,7 +46,7 @@ header nav div#logo a img{
 header nav ul{
     display: flex;
     list-style: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     
 }
 
