@@ -33,7 +33,10 @@ header nav{
     justify-content: space-between;
     padding: 0 105px;
     background-color: rgba(0, 0, 0, 0.200);
+}
 
+header nav div#logo{
+    margin-left: -45px;
 }
 
 header nav div#logo a img{
@@ -44,11 +47,12 @@ header nav div#logo a img{
 header nav ul{
     display: flex;
     list-style: none;
+    
 }
 
 header nav ul li{
     padding-top: 26px;
-    margin-left: 35px;
+    margin-left: 18px;
 }
 
 header nav li a{
