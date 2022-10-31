@@ -128,13 +128,13 @@ main div.video{
     margin: 15px;
     padding: 5px;
     position: relative;
-    padding-bottom: 61.5%;
+    padding-bottom: 59%;
 }
 
 main div.video > iframe{
     position: absolute;
-    top: 10%;
-    left: 5%;
-    width: 90%;
-    height: 80%;
+    top: 6%;
+    left: 14%;
+    width: 75%;
+    height: 70%;
 }
