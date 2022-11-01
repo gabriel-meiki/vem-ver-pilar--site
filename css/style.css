@@ -78,6 +78,9 @@ header .conteudo{
     transform: translate(-50%, -50%);
     text-shadow: 2px 4px 0px black;
     font-family: 'Merriweather', serif;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header .conteudo h1{
