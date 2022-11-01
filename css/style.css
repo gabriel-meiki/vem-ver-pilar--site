@@ -124,17 +124,15 @@ header .conteudo p{
 
 
 main div.video{
-    background-color: transparent;
-    margin: 15px;
-    padding: 5px;
+    background-color: lightcyan;
     position: relative;
-    padding-bottom: 59%;
+    padding-bottom: 71%;
 }
 
 main div.video > iframe{
     position: absolute;
-    top: 6%;
-    left: 14%;
-    width: 75%;
+    top: 15%;
+    left: 5%;
+    width: 88%;
     height: 70%;
 }
