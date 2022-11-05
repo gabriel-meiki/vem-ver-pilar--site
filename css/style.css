@@ -11,18 +11,19 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
 header{
     position: relative;
     background-color: lightblue;
     text-align: center;
-    background-image: url('../imagens/fundo-header03-2.jpg');
+    background-image: url('../imagens/fundo-header03.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: left bottom;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -32,11 +33,11 @@ header nav{
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.200);
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-header nav div#logo{
-    margin-left: 50px;
-}
+
 
 header nav div#logo a img{
     width: 100px;
@@ -55,9 +56,6 @@ header nav ul li{
     margin-left: 32px;
 }
 
-header nav ul li:last-child{
-    margin-right: 50px;
-}
 
 header nav li a{
     color: white;
@@ -85,9 +83,9 @@ header .conteudo{
 
 header .conteudo h1{
     background-color: transparent;
-    font-size:  78px;
+    font-size:  90px;
     font-weight: 400;
-    width: 100%;;
+    width: 100%;
     max-width: 1000px;
     font-weight: 900;
     letter-spacing: 4px;
@@ -104,7 +102,7 @@ header .conteudo .divisor{
     color: rgb(0, 0, 0);
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 120%;
     letter-spacing: 3px;
 
 }
@@ -126,6 +124,7 @@ header .conteudo p{
 }
 
 
+/*VIDEO DO YOUTUBE RESPONSIVO, MENOS PARA PC
 main div.video{
     background-color: lightcyan;
     position: relative;
@@ -138,4 +137,27 @@ main div.video > iframe{
     left: 6%;
     width: 88%;
     height: 70%;
+}
+
+*/
+
+main div.video{
+    background-color: lightcyan;
+    position: relative;
+    padding-bottom: 49.55%;
+}
+
+main div.video > iframe{
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    width: 74%;
+    height: 84%;
+}
+
+/* https://descomplicandosites.com.br/site-scrollando-3-formas-de-como-remover-a-barra-de-rolagem-horizontal-no-elementor/ */
+@media (max-width: 786px){
+    body, html {
+    overflow-x: hidden!important;
+    }
 }
